@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #C4C4C4;
+}
+.menu{
+    font-size: 20px;
+    float: right;
+}
+li{
+    display: inline;
+    margin: 80px;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+}
+.header {
+    padding: 20px;
+    background:#0dc4fe;
+}
+.search_result{
+    display: flex;
+    width: 100%;
+    margin: 0 50px;
+    max-width: 2024px;
+    flex-wrap: wrap;
+}
+.product_card {
+    width: 20%;
+    margin: 0 40px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.product_img {
+    border: 2px solid #0dc4fe;
+    padding-bottom: 130px;
+}
+.product_info {
+    background-color: #0dc4fe;
+    margin-top: -18px;
+}
+.copyright {
+    float: right;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.footer{
+    background-color: #0dc4fe;
+    padding: 30px;
+}
